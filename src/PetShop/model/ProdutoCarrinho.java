@@ -18,7 +18,7 @@ public class ProdutoCarrinho extends Produto {
 		this.quantidade = quantidade;
 	}
 	
-	public float getTotal() {
+	public float getTotal() { //método para calcular o valor total de cada produto
 		return this.getPreco()*quantidade;
 	}
 

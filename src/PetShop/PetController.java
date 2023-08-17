@@ -79,7 +79,7 @@ public class PetController implements PetRepository {
 		return null;	
 	}
 	
-	//método auxiliar
+	//MÉTODO AUXILIAR
 	public ProdutoCarrinho selecionarProdutoCarrinho(ArrayList<ProdutoCarrinho> carrinho, int id ) { //método que seleciona um produto especifico dentro do carrinho
 		for(ProdutoCarrinho produtoCarrinho:carrinho) {
 			if(produtoCarrinho.getId() == id) {
@@ -166,7 +166,7 @@ public class PetController implements PetRepository {
 		return carrinho;
 	}
 	
-	//método auxiliar
+	//MÉTODO AUXILIAR
 	public void emitirRecibo(ArrayList<ProdutoCarrinho> carrinho) {
 		if(carrinho.isEmpty() == true)
 			System.out.println("Seu carrinho está vazio!");

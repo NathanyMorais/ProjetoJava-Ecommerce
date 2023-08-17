@@ -19,6 +19,7 @@ public class PetMain {
 		ArrayList<ProdutoCarrinho> historico = new ArrayList<ProdutoCarrinho>();
 		int opcao, id, quantidade, formaPagamento;
 		String busca;
+		
 		petshop.inicializarEstoque();
 		
 		while (true) {
@@ -163,7 +164,6 @@ public class PetMain {
 			}
 			default: System.out.println(Cores.TEXT_RED+"Opção inválida!"+Cores.TEXT_RESET);
 			}
-			
 			keyPress();
 			break;
 		default:

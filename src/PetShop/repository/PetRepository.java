@@ -18,5 +18,4 @@ public interface PetRepository {
 	public void concluirCompra(ArrayList<ProdutoCarrinho> carrinho);
 	public void continuarCompra();
 	
-
 }

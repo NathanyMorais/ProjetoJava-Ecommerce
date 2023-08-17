@@ -16,11 +16,9 @@ public class Produto {
 		this.preco = preco;
 	}
 	
-	public Produto() {
-		
+	public Produto() {	
 	}
 
-	//Getters e Setters
 	public int getId() {
 		return id;
 	}
@@ -61,7 +59,6 @@ public class Produto {
 		this.preco = preco;
 	}
 
-	//MÉTODOS
 	public void infoProduto() { //método que imprime as informações de cada produto
 		System.out.println("-----------------------------------------------------------");
 		System.out.println("Código: " + this.getId());
