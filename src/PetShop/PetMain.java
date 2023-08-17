@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import PetShop.model.Produto;
+import PetShop.controller.PetController;
 import PetShop.util.Cores;
 import PetShop.model.ProdutoCarrinho;
 

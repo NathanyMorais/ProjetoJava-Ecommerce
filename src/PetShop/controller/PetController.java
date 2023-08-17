@@ -1,7 +1,6 @@
-package PetShop;
+package PetShop.controller;
 
 import java.util.ArrayList;
-
 import PetShop.model.Produto;
 import PetShop.model.ProdutoCarrinho;
 import PetShop.repository.PetRepository;
@@ -206,4 +205,3 @@ public class PetController implements PetRepository {
 	}
 	
 }
-
